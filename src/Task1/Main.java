@@ -1,6 +1,6 @@
-package Package.Task1;
-
-import Package.Task1.ListNode;
+package Task1;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

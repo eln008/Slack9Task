@@ -1,2 +1,16 @@
-package Task7;public class Main7 {
+package Task7;
+
+public class Main7 {
+    public static void main(String[] args) {
+        ReverseWordsInString solution = new ReverseWordsInString();
+
+        String s1 = "the sky is blue";
+        System.out.println("Результат: \"" + solution.reverseWords(s1) + "\"");
+
+        String s2 = " hello world ";
+        System.out.println("Результат: \"" + solution.reverseWords(s2) + "\"");
+
+        String s3 = " a good example ";
+        System.out.println("Результат: \"" + solution.reverseWords(s3) + "\"");
+    }
 }
