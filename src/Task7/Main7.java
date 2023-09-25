@@ -2,7 +2,7 @@ package Task7;
 
 public class Main7 {
     public static void main(String[] args) {
-        ReverseWordsInString solution = new ReverseWordsInString();
+        ReverseWords solution = new ReverseWords();
 
         String s1 = "the sky is blue";
         System.out.println("Результат: \"" + solution.reverseWords(s1) + "\"");

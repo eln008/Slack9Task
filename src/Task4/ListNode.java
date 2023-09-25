@@ -9,9 +9,6 @@ public class ListNode {
 
 
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
 
         ListNode current = head;
 

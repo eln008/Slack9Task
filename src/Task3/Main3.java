@@ -11,13 +11,13 @@ public class Main3 {
         System.out.print("Исходный список: ");
         printList(head);
 
-        int n = 2;
+        int n = 4;
 
         RemoveNthNodeFromEnd solution = new RemoveNthNodeFromEnd();
 
         head = solution.removeNthFromEnd(head, n);
 
-        System.out.print("Список после удаления " + n + "-го узла с конца: ");
+        System.out.print("после удаления n="+ n+"\n");
         printList(head);
     }
 

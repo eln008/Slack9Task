@@ -2,10 +2,6 @@ package Task5;
 
 public class LastWordLength {
     public int lengthOfLastWord(String s) {
-        if (s == null || s.length() == 0) {
-            return 0;
-        }
-
         int length = 0;
         int i = s.length() - 1;
 
